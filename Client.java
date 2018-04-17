@@ -29,9 +29,6 @@ public class Client {
 					}
 				}
 			}).start();
-			
-			Thread.sleep(3000);
-			sendMsg("Hello yourself motherfucker");
 
 		} catch (UnknownHostException uhe) {
 			System.out.println("Host unknown: " + uhe.getMessage());
